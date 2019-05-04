@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		4A201295227DD90D00DE2430 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A201294227DD90D00DE2430 /* AppDelegate.swift */; };
 		4A201297227DD90D00DE2430 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A201296227DD90D00DE2430 /* ViewController.swift */; };
-		4A20129A227DD90D00DE2430 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A201298227DD90D00DE2430 /* Main.storyboard */; };
+		4A20129A227DD90D00DE2430 /* Scramble.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A201298227DD90D00DE2430 /* Scramble.storyboard */; };
 		4A20129C227DD90E00DE2430 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A20129B227DD90E00DE2430 /* Assets.xcassets */; };
 		4A20129F227DD90E00DE2430 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A20129D227DD90E00DE2430 /* LaunchScreen.storyboard */; };
 		4A2012AA227DD90E00DE2430 /* bible_scrambleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2012A9227DD90E00DE2430 /* bible_scrambleTests.swift */; };
 		4A2012B5227DD90E00DE2430 /* bible_scrambleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2012B4227DD90E00DE2430 /* bible_scrambleUITests.swift */; };
+		4A2012C7227E393E00DE2430 /* Segoe UI and Fabric MDL2 icon fonts in Resources */ = {isa = PBXBuildFile; fileRef = 4A2012C6227E393E00DE2430 /* Segoe UI and Fabric MDL2 icon fonts */; };
+		4A2012C9227E3C8700DE2430 /* segoeuib.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A2012C8227E3C8700DE2430 /* segoeuib.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,7 @@
 		4A201291227DD90D00DE2430 /* bible-scramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bible-scramble.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A201294227DD90D00DE2430 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A201296227DD90D00DE2430 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4A201299227DD90D00DE2430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A201299227DD90D00DE2430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Scramble.storyboard; sourceTree = "<group>"; };
 		4A20129B227DD90E00DE2430 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A20129E227DD90E00DE2430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A2012A0227DD90E00DE2430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		4A2012B0227DD90E00DE2430 /* bible-scrambleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bible-scrambleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A2012B4227DD90E00DE2430 /* bible_scrambleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bible_scrambleUITests.swift; sourceTree = "<group>"; };
 		4A2012B6227DD90E00DE2430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A2012C6227E393E00DE2430 /* Segoe UI and Fabric MDL2 icon fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Segoe UI and Fabric MDL2 icon fonts"; sourceTree = "<group>"; };
+		4A2012C8227E3C8700DE2430 /* segoeuib.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = segoeuib.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		4A201288227DD90D00DE2430 = {
 			isa = PBXGroup;
 			children = (
+				4A2012C8227E3C8700DE2430 /* segoeuib.ttf */,
 				4A201293227DD90D00DE2430 /* bible-scramble */,
 				4A2012A8227DD90E00DE2430 /* bible-scrambleTests */,
 				4A2012B3227DD90E00DE2430 /* bible-scrambleUITests */,
@@ -99,7 +104,8 @@
 			children = (
 				4A201294227DD90D00DE2430 /* AppDelegate.swift */,
 				4A201296227DD90D00DE2430 /* ViewController.swift */,
-				4A201298227DD90D00DE2430 /* Main.storyboard */,
+				4A2012C6227E393E00DE2430 /* Segoe UI and Fabric MDL2 icon fonts */,
+				4A201298227DD90D00DE2430 /* Scramble.storyboard */,
 				4A20129B227DD90E00DE2430 /* Assets.xcassets */,
 				4A20129D227DD90E00DE2430 /* LaunchScreen.storyboard */,
 				4A2012A0227DD90E00DE2430 /* Info.plist */,
@@ -229,9 +235,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A2012C9227E3C8700DE2430 /* segoeuib.ttf in Resources */,
+				4A2012C7227E393E00DE2430 /* Segoe UI and Fabric MDL2 icon fonts in Resources */,
 				4A20129F227DD90E00DE2430 /* LaunchScreen.storyboard in Resources */,
 				4A20129C227DD90E00DE2430 /* Assets.xcassets in Resources */,
-				4A20129A227DD90D00DE2430 /* Main.storyboard in Resources */,
+				4A20129A227DD90D00DE2430 /* Scramble.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,12 +301,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4A201298227DD90D00DE2430 /* Main.storyboard */ = {
+		4A201298227DD90D00DE2430 /* Scramble.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4A201299227DD90D00DE2430 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Scramble.storyboard;
 			sourceTree = "<group>";
 		};
 		4A20129D227DD90E00DE2430 /* LaunchScreen.storyboard */ = {
@@ -433,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98FUBN4YVB;
 				INFOPLIST_FILE = "bible-scramble/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98FUBN4YVB;
 				INFOPLIST_FILE = "bible-scramble/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
